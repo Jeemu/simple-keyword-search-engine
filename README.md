@@ -1,3 +1,3 @@
-# simple-keyword-search-engine
+# simple-web-scraping-engine
 #myLearningNode<br>
-A simple search engine to search for keyword appearance in a given website
+A simple scraping engine to search for keyword appearance in a given web page
