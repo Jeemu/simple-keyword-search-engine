@@ -1,0 +1,24 @@
+{
+  "name": "simple-web-scraping-engine",
+  "version": "1.0.0",
+  "description": "\u0016A simple scraping engine to search for keyword appearance in a given web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeemu/simple-web-scraping-engine.git"
+  },
+  "keywords": [
+    "search",
+    "web-scraping\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+    "web-scraping"
+  ],
+  "author": "Jeemu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jeemu/simple-web-scraping-engine/issues"
+  },
+  "homepage": "https://github.com/Jeemu/simple-web-scraping-engine#readme"
+}
