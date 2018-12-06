@@ -1,7 +1,7 @@
-const http = require('http')
-const url = 'http://nodeprogram.com'
+const https = require('https')
+const url = 'https://www.bbc.com/swahili' // Put any URL here
 
-http.get(url, (res) => {
+https.get(url, (res) => {
     let store = ''
     let c = 0
 
@@ -11,7 +11,7 @@ http.get(url, (res) => {
     })
     res.on('end', (keyword) => {
         console.log('The download is over after '+c+' pieces')
-        keyword = 'Node.js'
+        keyword = 'Afrika' // ...And the keyword to search goes here
         let regex = new RegExp(keyword, 'g')
         let appearance = store.match(regex)
         let n = appearance.length
