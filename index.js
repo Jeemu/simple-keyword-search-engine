@@ -1,5 +1,5 @@
 const https = require('https')
-const url = 'https://www.bbc.com/swahili' // Put any URL here
+let url = process.argv[3] // Put any URL here
 
 https.get(url, (res) => {
     let store = ''
@@ -11,7 +11,7 @@ https.get(url, (res) => {
     })
     res.on('end', (keyword) => {
         console.log('The download is over after '+c+' pieces')
-        keyword = 'Afrika' // ...And the keyword to search goes here
+        keyword = process.argv[2] // ...And the keyword to search goes here
         let regex = new RegExp(keyword, 'g')
         let appearance = store.match(regex)
         let n = appearance.length
